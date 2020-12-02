@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>mission page</title>
+    <link rel="stylesheet" href="css/mission.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto:900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  </head>
+  <body>
+<!--Banner div-menu-->
+    <div class="banner">
+      <a href="index.html"><img src="img/backpack.png" alt="logo">
+        <ul class="nav">
+          <li><a href="index.html">HOME PAGE</a></li>
+          <li><a href="mission.html">MISSION STATEMENT</a></li>
+          <li><a href="contact.html">CONTACT US</a></li>
+          <li><a href="Devotions.html">DEVOTIONS</a></li>
+        </ul>
+    </div>
+
+<!---H1 header1-->
+
+  <h1>Mercy Backpacks Mission</h1>
+  <h2>"Be Kind and compassionate to one another, forgiving each other just as Christ God forgave you."</h2>
+  <h3>Ephesians 4:32</h3>
+
+<!---Slideshow HTML/ Javascript-->
+  <div class="swiper-container">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"> <img src="img/photo1.jpg" alt=""> </div>
+        <div class="swiper-slide"> <img src="img/photo2.jpg" alt=""> </div>
+        <div class="swiper-slide"> <img src="img/photo3.jpg" alt=""> </div>
+        <div class="swiper-slide"> <img src="img/photo4.jpg" alt=""> </div>
+        <div class="swiper-slide"> <img src="img/photo5.jpg" alt=""> </div>
+
+    </div>
+
+    <!-- Nav button for slideshow -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+</div>
+
+
+    <div class="topcontent">
+      <div class="text">
+        <img src="img/designgrey.png" alt="background">
+        <h1>What does it mean to have compassion? </h1>
+
+        <p>"It  is something that we at Mercy
+          Backpack stand on. Compassion is the ability to give and show sincere
+          empathy for one another. Often times we judgement as a first act of a person
+          but compassion allows you to mimic Christ in our lives in the lives of others."</p>
+      </div>
+    </div>
+
+<!--
+    <div class="topcontent">
+      <img src="img/back1.jpg" alt="background image">
+
+
+      <div id="slideshow">
+        <div class="slide-wrapper">
+        <div class="slide"><img src="img/balt.jpg" alt="pic1">
+
+        </div>
+        <div class="slide"><img src="img/balt2.jpg" alt="pic2">
+
+        </div>
+        <div class="slide"><img src="img/city.jpg" alt="pic3">
+
+        </div>
+        <div class="slide"><img src="img/youth.jpg" alt="pic4">
+
+        </div>
+      </div>
+    </div>
+</div> -->
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<script type="text/javascript">
+var mySwiper = new Swiper('.swiper-container', {
+// Optional parameters
+
+
+// If we need pagination
+pagination: {
+  el: '.swiper-pagination',
+},
+
+// Navigation arrows
+navigation: {
+  nextEl: '.swiper-button-next',
+  prevEl: '.swiper-button-prev',
+},
+
+// And if we need scrollbar
+scrollbar: {
+  el: '.swiper-scrollbar',
+},
+})
+</script>
+
+
+
+
+  </body>
+</html>

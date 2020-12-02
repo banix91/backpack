@@ -1,0 +1,176 @@
+body{
+  width:100%;
+  background-image:url("mp1.jpg");
+
+}
+img{
+  width:100%;
+  height:100%
+}
+.banner {
+
+  height:200px;
+  width:100%;
+  /*position: -webkit-sticky;
+  position: sticky;
+  */
+  top: 0;
+}
+.banner img{
+  height:200px;
+  width:400px;
+  padding-left:30px;
+  padding-bottom: 10px;
+  transition-duration: 3s;
+}
+.nav{
+  position: absolute;
+  top:50px;
+}
+ul{
+  margin:2px;
+  width:700px;
+  padding-left:750px;
+  list-style: none;
+  font-family: 'Roboto Condensed', sans-serif;
+
+}
+li{
+  display: inline-block;
+  float: right;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+li a{
+  text-decoration:none;
+  color:#c81912;
+  font-size:20px;
+  transition: 1s;
+  padding:20px;
+  font-family:'Roboto Condensed', sans-serif;
+}
+li a:hover{
+  transition-duration: 1s;
+  background-color: #7FCED5;
+  color:#000;
+}
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-size:33px;
+  color:#5f6769;
+  padding-left: 500px;
+}
+.contactus{
+
+  width:100%;
+  height:550px;
+}
+.contactus .contactext{
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 40%;
+  padding-top:0px;
+}
+/*.contactus p{
+  font-family:'Roboto Condensed', sans-serif;
+  font-size:20px;
+  padding-left:300px;
+  color:#c81912;
+}*/
+.contactext{
+  background-color:#7FCED5;
+  width:700px;
+  height:170px;
+}
+.contactext p{
+  font-family:'Roboto Condensed', sans-serif;
+  width:500px;
+  height:200px;
+  font-size:20px;
+  padding-left:100px;
+}
+.contactext #verse1 p{
+  font-family:'Roboto', sans-serif;
+  font-size:15px;
+  font-style:italic;
+  color:black;
+}
+.contact{
+  width:100%;
+  height:200px;
+  background-color:#c81912;
+  position: relative;
+}
+.email{
+  width:100px;
+  height: 100px;
+  position: absolute;
+  top:20px;
+  left:600px;
+}
+.email img{
+  width:70px;
+  height:70px;
+  padding-left:40px;
+}
+.email p{
+  font-family:'Roboto Condensed', sans-serif;
+  font-size:16px;
+}
+.phone{
+  width:100px;
+  height:100px;
+  position:absolute ;
+  top:20px;
+  left:900px;
+}
+.phone img{
+  width:70px;
+  height:70px;
+  padding-left:20px;
+}
+.phone p{
+  font-family:'Roboto Condensed', sans-serif;
+  font-size:16px;
+}
+.social{
+  width:75px;
+  height: 75px;
+  position: absolute;
+  top:20px;
+  right:700px;
+}
+.social img{
+  width:70px;
+  height:70px;
+  padding-left:40px;
+}
+.social p{
+  font-family:'Roboto Condensed', sans-serif;
+  font-size:16px;
+  padding:5px;
+}
+
+/*.contact ul{
+  margin:2px;
+  width:500px;
+  padding-left:550px;
+  list-style: none;
+}
+.contact li{
+  font-family:'Roboto Condensed', sans-serif;
+  display: inline-block;
+  float: right;
+  padding-left:100px;
+  padding-top:20px;
+  width:54px;
+  height:54px;
+}
+
+.contact li:hover{
+  transition-duration: 1s;
+  background-color: #7FCED5;
+  color:#000;
+}*/
